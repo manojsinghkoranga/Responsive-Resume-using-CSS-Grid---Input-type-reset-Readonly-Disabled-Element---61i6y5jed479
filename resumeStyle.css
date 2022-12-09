@@ -6,7 +6,6 @@ body{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .left-section hr{
@@ -19,7 +18,6 @@ body{
     margin: 20px auto;
     display: grid;
     grid-template-columns: 300px 700px;
-    align-items: center;
 }
 .left-section{
     width: 300px;
@@ -127,4 +125,16 @@ div > section{
 p{
     text-align: justify;
     word-spacing: 4px;
+}
+
+@media screen and (max-width: 674px) {
+    .main-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .left-section{
+        width: 100%;
+    }
+    .right-section{
+        width: 100%;
+    }
 }
