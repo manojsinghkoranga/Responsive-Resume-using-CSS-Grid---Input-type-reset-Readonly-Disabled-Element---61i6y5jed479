@@ -1,0 +1,130 @@
+body{
+    background-color: #a6abad;
+    display: block;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.left-section hr{
+    background-color: #f5f5f5;
+}
+
+.main-content{
+    min-height: 1000px;
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 300px 700px;
+    align-items: center;
+}
+.left-section{
+    width: 300px;
+    height: 1000px;
+    background-color: #242531;
+    list-style: none;
+}
+.right-section{
+    width: 700px;
+    height: 1000px;
+    background-color: #F7F7F7;
+}
+.left-content{
+    padding: 1rem 1rem 1rem 1rem;
+    align-items: center;
+    justify-content: center;
+    color: #f5f5f5;
+}
+.profile-details{
+    text-align: center;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    word-spacing: 0.02px;
+    padding: 0.8rem 0.8rem 0.8rem 0.8rem;
+    text-transform: uppercase;
+}
+.profile-image{
+    margin: auto;
+    width: 60%;
+    border: 5px solid white;
+    border-radius: 30%;
+}
+.designation{
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+.discription{
+    font-size: 0.75rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+.social-media{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: x-large;
+}
+i{
+    color: #f5f5f5;
+    margin: 5px; 
+}
+.personal-details{
+    margin: 3px;
+}
+.skills{
+    padding: 1rem 1rem 1rem 1rem;
+}
+.skill-item{
+    margin-bottom: 20px;
+}
+.skill-title{
+    color: #f5f5f5;
+    text-align: center;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    padding: 1rem 0.5rem;
+}
+.skill-name{
+    text-align: left;
+    color: #f5f5f5;
+    font-size: 0.65rem;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+}
+.progress-bar{
+    border: 1px solid white;
+    height: 4px;
+    background-color: #f5f5f5;
+}
+.right-main-content{
+    padding: 2rem 3rem;
+}
+section > hr{
+    margin: 3px 0px;
+    border: 1px solid black;
+    background-color: black;
+}
+li > div{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px;
+}
+div > section{
+    margin: 10px;
+}
+.right-title{
+    font-size: 1.2rem; 
+    font-weight: 700; 
+    padding: 0.5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+p{
+    text-align: justify;
+    word-spacing: 4px;
+}
