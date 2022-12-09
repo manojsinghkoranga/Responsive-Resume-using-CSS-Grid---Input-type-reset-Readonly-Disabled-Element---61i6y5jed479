@@ -43,8 +43,8 @@ body{
 .name{
     font-size: 1.2rem;
     font-weight: 700;
-    word-spacing: 0.02px;
     text-align: center;
+    letter-spacing: 0.02px;
     text-transform: uppercase;
     padding: 0.8rem 0.8rem 0.8rem 0.8rem;
 }
