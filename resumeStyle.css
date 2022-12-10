@@ -22,12 +22,12 @@ body{
     display: grid;
     background-color: #242531;
     list-style: none;
-    grid-column: span;
+    grid-column: 1 / span;
 }
 .right-section{
     display: grid;
     background-color: #F7F7F7;
-    grid-column: span;
+    grid-column: 1 / span;
 }
 .left-content{
     padding: 1rem 1rem 1rem 1rem;
